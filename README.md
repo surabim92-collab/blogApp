@@ -36,9 +36,9 @@ Engagement
    Each request is routed based on the API path, and all data (users, posts, likes, dislikes, comments) is stored in MongoDB.
 
 
-# **▶️ How to Run the Project on Localhost**
+#  How to Run the Project on Localhost**
 
-## **1️⃣ Environment Variables**
+## Environment Variables**
 
 Create a `.env` file in the root directory and add:
 
@@ -47,11 +47,11 @@ PORT=3000
 MONGO_URI=your_mongodb_connection_string
 ```
 
-> ⚠️ The `.env` file is intentionally excluded from version control to protect sensitive information.
+ The `.env` file is intentionally excluded from version control to protect sensitive information.
 
 ---
 
-## **2️⃣ Start the Server**
+## *Start the Server**
 
 ### **Development Mode**
 ```bash
@@ -65,7 +65,7 @@ node index.js
 
 ---
 
-## **3️⃣ Access the Application**
+## * Access the Application**
 
 Once the server is running, open your browser or API testing tool (Postman / Thunder Client) and visit:
 
@@ -77,14 +77,14 @@ If the server is configured correctly, it will respond indicating that the API i
 
 ---
 
-## **4️⃣ Test API Endpoints**
+## *Test API Endpoints**
 
 Use an API client to test available endpoints such as:
 - Create a blog post
 - Like a post
 - Comment on a post
 
-### 5️⃣ API Endpoints
+## API Endpoints
 ("/comments/create",createComment);
 ("/post/create",createPost);
 ("/posts",getAllPosts);
